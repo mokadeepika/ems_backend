@@ -11,7 +11,7 @@ import java.util.List;
 @CrossOrigin("*")
 @AllArgsConstructor
 @RestController
-@RequestMapping("https://full-stack-ems.vercel.app/")
+@RequestMapping("api/employees")
 public class EmployeeController {
     private EmployeeService employeeService;
     //Build Add Employees Rest API
